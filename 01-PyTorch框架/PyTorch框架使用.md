@@ -233,7 +233,7 @@
 
 ### 指定元素类型张量
 
-- data.type(dtype=)
+- **data.type(dtype=)**
 
   ```python
   data = torch.full([2, 3], 10)
