@@ -14,7 +14,16 @@
 > pip install torch -i https://pypi.tuna.tsinghua.edu.cn/simple
 > ```
 
+> PyTorch安装---GPU版
+>
+> 1. 在命令行输入`nvidia-smi`，看右上角的‌**CUDA Version**‌，比如显示 12.4，后续安装时选不超过 12.4 的 PyTorch 轮子即可。
+>
+> 2. ```shell
+>    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+>    ```
+
 - PyTorch一个基于Python语言的深度学习框架，它将数据封装成张量（Tensor）来进行处理。
+
 - PyTorch提供了灵活且高效的工具，用于构建、训练和部署机器学习和深度学习模型。
 - PyTorch广泛应用于学术研究和工业界，特别是在计算机视觉、自然语言处理、强化学习等领域。
 
